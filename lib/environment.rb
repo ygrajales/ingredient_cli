@@ -1,5 +1,5 @@
-require_relative "ingredient_cli/version"
-require_relative "ingredient_cli/cli"
+require_relative "../lib/ingredient_cli/version.rb"
+require_relative "../lib/ingredient_cli/cli.rb"
 
 module IngredientCli
   class Error < StandardError; end

@@ -1,3 +1,3 @@
-require_relative '
+require_relative '../lib/environment.rb'
 
-Ingredient::Cli.new.welcome
+IngredientCli::Cli.new.welcome
